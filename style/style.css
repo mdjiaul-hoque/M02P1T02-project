@@ -1,0 +1,122 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+body{
+    margin: 0;
+    border: 0;
+   
+ /* font-family: "Open Sans", sans-serif; */
+font-family: "Ancizar Serif", serif;
+
+}
+
+:root{
+    --font-weigth1:700px;
+    --font-weigth2:600px;
+    --font-weigth3:500px;
+    --font-color1:rgb(58, 58, 58);
+    --button-color:rgb(224, 44, 109);
+    --footer-bg:rgb(10, 8, 38);
+
+}
+
+
+
+
+/* navigation-var */
+
+header{
+     padding:0 120px;
+}
+
+nav{ 
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+nav .logo{
+    font-size: 1.5rem;
+    /* font-weight: var(--font-weigth1); */
+    color: var(--font-color1);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+    /* margin-right: 30px; */
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--font-color1);
+}
+nav ul .search{
+    font-size: 20px;
+}
+nav ul .addto{
+    font-size: 20px;
+     margin-right: 0px;
+}
+
+
+
+/* banner-section */
+
+main{
+     padding:0 120px;
+    
+}
+
+main>section{
+     margin-top: 90px;
+}
+
+.banner-section{
+    display: flex;
+    gap: 133px;
+    align-items: center;
+    margin-top:50px ;
+
+}
+.banner-section .banner-text{}
+.banner-section .banner-text h1{
+    font-size: 3.25rem;
+    color: var(--font-color1);
+}
+.banner-section .banner-text p{
+    color: var(--font-color1);
+}
+.banner-section .banner-text button{
+    background-color: var(--button-color);
+    color:#fff;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+}
+.banner-section .banner-image {
+    background-image: url("/images/Circle\ design.svg");
+    /* position: relative; */
+}
+.banner-section .banner-image img{
+    /* position: absolute; */
+    
+
+}
+
+/* compuny-section */
+.compuny-section{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 20px;
+    align-items: center;
+    border-top: 0.000005px solid #d1bbbb;
+    border-bottom: 0.000005px solid #d1bbbb;
+    padding: 50px 41px;
+}
